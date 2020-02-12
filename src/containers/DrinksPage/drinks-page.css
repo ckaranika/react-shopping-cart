@@ -1,0 +1,30 @@
+.page-drinks .MuiTabs-root {
+  background-color: rgb(44, 44, 44);
+  color: lightgray;
+}
+
+.page-drinks .MuiTabs-root .MuiTabs-indicator {
+  display: none;
+}
+
+.page-drinks .MuiTabs-root .Mui-selected {
+  color: white;
+}
+
+.page-drinks .views,
+.page-drinks .react-swipeable-view-container {
+  height: 100%;
+}
+.page-drinks .slide {
+  padding: 16px;
+  height: calc(100% - 52px);
+}
+
+.page-drinks .grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: 0;
+    padding: 0;
+    height: calc(100% - 45px);
+    grid-gap: 16px;
+}

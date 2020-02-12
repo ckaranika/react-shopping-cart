@@ -1,0 +1,17 @@
+.MuiBackdrop-root {
+  background-color: rgba(250,250,250,0.1) !important;
+}
+
+.MuiDialog-paper {
+  box-shadow: 0 4px 16px #3c3c3c !important;
+  background-color: #3c3c3c !important;
+  color: whitesmoke !important;
+  border-radius: 16px !important;
+  min-width: 85% !important;
+  max-width: 85% !important;
+}
+
+.MuiButton-root {
+  background-color: white !important;
+  border-radius: 8px !important;
+}

@@ -1,0 +1,82 @@
+.beer-cart-cell {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.beer-cart-cell div:first-child {
+  position: relative;
+}
+
+.beer-cart-cell > div:first-child .price {
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 30px;
+  background-color: gold;
+  border-radius: 8px;
+  text-align: center;
+  color: black;
+  z-index: 10;
+  transform: translate(50%, -50%);
+}
+
+.beer-cart-cell .MuiAvatar-root {
+  background-color: white;
+  padding: 8px 4px;
+  border-radius: 4px;
+  width: 30px;
+}
+
+.beer-cart-cell img {
+  object-fit: contain;
+}
+
+.beer-cart-cell > div:nth-child(2) {
+  margin-left: 32px;
+  font-size: 12px;
+}
+
+.beer-cart-cell > div:nth-child(2) .name {
+  font-weight: bold;
+}
+
+.beer-cart-cell > div:nth-child(2) .tagline {
+  font-size: 10px;
+}
+
+.beer-cart-cell > div:nth-child(3) {
+  margin-left: 16px;
+  display: flex;
+  max-height: 24px;
+}
+
+.beer-cart-cell > div:nth-child(3) > * {
+  width:24px;
+  padding: 0;
+  min-width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beer-cart-cell > div:nth-child(3) .minus {
+  background: transparent !important;
+  border-radius: 8px 0 0 8px !important;
+  border: 1px solid gray;
+  color: white;
+}
+
+.beer-cart-cell > div:nth-child(3) .plus {
+  background: gold !important;
+  border-radius: 0 8px 8px 0 !important;
+}
+
+.beer-cart-cell > div:nth-child(3) .MuiButton-label {
+  line-height: 1;
+}
+
+.beer-cart-cell > div:nth-child(4) {
+  margin-left:32px;
+}

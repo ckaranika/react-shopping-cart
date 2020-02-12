@@ -1,0 +1,13 @@
+.cart {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+}
+
+.cart ul {
+  padding:0;
+  list-style-type: none;
+}
+
+.cart ul > li {
+  margin-bottom: 24px;
+}
